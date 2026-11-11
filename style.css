@@ -1,0 +1,31 @@
+div{
+    margin: 0%;
+    width: 100%;
+    align-items: center;
+    direction: ltr;
+    display: flex;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(113, 8, 235);
+    background-color: rgb(195, 247, 174);
+    box-shadow: 0px  0px  20px 0px rgb(69, 226, 7);
+
+    animation: moveBox 3s infinite;
+}
+
+@keyframes moveBox {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    
+}
